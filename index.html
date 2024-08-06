@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gato Preto Artesanatos</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+    "
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+
+  <body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+      <div class="container">
+        <i class="bi bi-palette m-2 branco"></i>
+        <h1 class="navbar-brand m-0 section-title">Gato Preto Artesanatos</h1>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu-navegacao"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <nav
+          class="navbar-collapse collapse justify-content-end"
+          id="menu-navegacao"
+        >
+          <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item fw-bold">
+              <a href="#sobre-o-gato-preto" class="nav-link">
+                <i class="bi bi-house-door me-1"></i>
+                Sobre nós
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#eventos" class="nav-link">
+                <i class="bi bi-calendar2-heart-fill me-1"></i>
+                Eventos
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#cursos" class="nav-link">
+                <i class="bi bi-journal-text me-1"></i>
+                Cursos
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#contatos" class="nav-link">
+                <i class="bi bi-chat-heart me-1"></i>
+                Contatos
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="cabecalho"
+      data-bs-smooth-scroll="true"
+    >
+      <section id="sobre-o-gato-preto">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img
+                src="images/slides/como-fazer-tecidos-a-mao.jpg"
+                alt="fazendo tecido a mão"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="images/slides/coracao-bordado.jpg"
+                alt="coração bordado"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="images/slides/decorando-casa-com-arte.jpg"
+                alt="decoração coração de galhos"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-toggle="tab"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              class="active"
+              data-bs-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+        </div>
+
+        <div class="pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <img
+                  src="images/gato-preto.jpg"
+                  class="d-block w-100 rounded"
+                  alt="foto gato preto"
+                />
+              </div>
+              <div class="col-md-7 mt-3 mt-md-0">
+                <h2 class="section-title fs-4 text-colored">
+                  Sobre o Gato Preto Artesanatos
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate nemo eos, explicabo doloribus a perspiciatis at
+                  dolores quaerat quam repudiandae, error minima officia
+                  incidunt cum totam, nobis iusto harum ipsa!
+                </p>
+                <h3 class="section-title fs-4 text-colored">
+                  Sobre Nossa Loja
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  dolores sequi non sint explicabo enim, nostrum soluta
+                  veritatis tempore impedit. Dolorem expedita accusamus eum
+                  molestiae vero! Doloribus repudiandae eaque modi!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center">
+              Veja nossa agenda da semana
+            </h2>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-4">
+              <img
+                src="images/eventos/croche-para-pets.jpg"
+                alt=""
+                class="d-block w-100 rounded mb-2"
+              />
+              <h3 class="section-title text-colored fs-5">
+                <i class="bi bi-calendar-heart-fill"></i>
+                Croche de Roupas para Pets
+              </h3>
+              <h4 class="data-e-hora">02/08/2024 às 14h</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                reiciendis doloremque perferendis iusto aperiam quibusdam quod
+                voluptatibus temporibus? Reprehenderit, voluptatum fugiat
+                temporibus ipsam magni optio minima ducimus quas exercitationem
+                eos!
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="images/eventos/pintura-recreativa-criancas-pascoa.jpg"
+                alt=""
+                class="d-block w-100 rounded mb-2"
+              />
+              <h3 class="section-title text-colored fs-5">
+                <i class="bi bi-calendar-heart-fill"></i>
+                Pintura recreativa de Páscoa
+              </h3>
+              <h4 class="data-e-hora">02/08/2024 às 15h</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                reiciendis doloremque perferendis iusto aperiam quibusdam quod
+                voluptatibus temporibus? Reprehenderit, voluptatum fugiat
+                temporibus ipsam magni optio minima ducimus quas exercitationem
+                eos!
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                src="images/eventos/sabonetes-artesanais-dicas-e-truques.jpg"
+                alt=""
+                class="d-block w-100 rounded mb-2"
+              />
+              <h3 class="section-title text-colored fs-5">
+                <i class="bi bi-calendar-heart-fill"></i>
+                Sabonetas Artesanais
+              </h3>
+              <h4 class="data-e-hora">02/08/2024 às 16h</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                reiciendis doloremque perferendis iusto aperiam quibusdam quod
+                voluptatibus temporibus? Reprehenderit, voluptatum fugiat
+                temporibus ipsam magni optio minima ducimus quas exercitationem
+                eos!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cursos" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center mb-5 text-colored mb-2">
+              Nossos Cursos
+            </h2>
+          </div>
+          <div class="row">
+            <aside class="col-md-2">
+              <nav class="nav nav-pills flex-column nav-cursos">
+                <button
+                  type="button"
+                  data-bs-toggle="tab"
+                  data-bs-target="#arte-com-papel"
+                  class="fw-bold text-start nav-link text-colored active"
+                >
+                  Arte com Papel
+                </button>
+                <button
+                  type="button"
+                  data-bs-toggle="tab"
+                  data-bs-target="#costura-criativa"
+                  class="fw-bold text-start nav-link text-colored"
+                >
+                  Costura
+                </button>
+                <button
+                  type="button"
+                  data-bs-toggle="tab"
+                  data-bs-target="#croche-e-trico"
+                  class="fw-bold text-start nav-link text-colored"
+                >
+                  Crochê e Tricô
+                </button>
+              </nav>
+            </aside>
+
+            <div class="col-md-10">
+              <div class="tab-content">
+                <div class="tab-pane active" id="arte-com-papel">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="images/cursos/arte-com-papel-e-recorte.jpg"
+                        alt="arte-com-papel"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">
+                        Desenhando com Recortes de Papel
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="images/cursos/craft-para-dia-a-dia.jpg"
+                        alt="arte-com-papel"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">
+                        Craft para o Dia a Dia
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="costura-criativa">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="images/cursos/costura-criativa.jpg"
+                        alt="costura criativa de tricos"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">
+                        Costura Criativa
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="images/cursos/costura-para-iniciante.jpg"
+                        alt="linhas e tesoura de costura"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">
+                        Costura para Iniciantes
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="croche-e-trico">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="images/cursos/crochê-para-iniciantes.jpg"
+                        alt="croche-para-iniciantes"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">
+                        Croche Iniciantes
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="images/cursos/crochê-intermediario.jpg"
+                        alt="croche-para-nivel-intermediario"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">
+                        Croche Nível Intermediário
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="images/cursos/crochê-avancado.jpg"
+                        alt="croche-avancado"
+                      />
+                      <h5 class="text-colored fw-bold mt-2">
+                        Croche Nível Avançado
+                      </h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contatos" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center">Contatos</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-7 mb-5">
+              <form>
+                <div>
+                  <label for="nome" class="form-label">Seu nome</label>
+                  <input type="text" id="nome" class="form-control" required />
+                </div>
+                <div>
+                  <label for="email" class="form-label">Seu e-mail</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="telefone" class="form-label"
+                    >Seu telefone (opicional)</label
+                  >
+                  <input type="tel" id="telefone" class="form-control" />
+                </div>
+                <div>
+                  <label for="mensagem" class="form-label">Sua mensagem</label>
+                  <textarea
+                    class="form-control"
+                    id="mensagem"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn mt-2">Enviar</button>
+              </form>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <h3 class="section-title fs-4 text-colored">Redes Sociais</h3>
+                <ul class="social-links">
+                  <li class="fs-5">
+                    <a href="#">
+                      <i class="bi bi-facebook preto"></i>
+                    </a>
+                  </li>
+                  <li class="fs-5 ms-1 me-1">
+                    <a href="#">
+                      <i class="bi bi-instagram preto"></i>
+                    </a>
+                  </li>
+                  <li class="fs-5">
+                    <a href="#">
+                      <i class="bi bi-whatsapp preto"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <h3 class="section-title fs-4 text-colored">Endereço</h3>
+                <p>Rua Arte, nº20, Bairro Artesanato - São Paulo - SP</p>
+              </div>
+              <div class="row">
+                <h3 class="section-title fs-4 text-colored">Telefone</h3>
+                <p>(11) 9 9999-9999</p>
+                <p>(11) 2222-2222</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
